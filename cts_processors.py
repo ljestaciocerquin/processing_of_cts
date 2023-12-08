@@ -43,6 +43,3 @@ class WriteProcessor(object):
     def __call__(self, image, filename):
         return 
     
-#logging.basicConfig(filename=snapshot_path + "/log.txt", level=logging.INFO,format='[%(asctime)s.%(msecs)03d] %(message)s', datefmt='%H:%M:%S')
-#logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
-#logging.info(str(args))
