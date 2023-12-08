@@ -31,7 +31,7 @@ class AttributesProcessor(object):
 
 
 
-class ResamplingProcessor(object):
+class TransformProcessor(object):
     
     def __call__(self, image):
         return Image()
